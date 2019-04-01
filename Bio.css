@@ -1,0 +1,47 @@
+
+
+html, body { margin: 0;
+  	height: 100%;
+}
+
+  .nametitile {
+  	text-align: center;
+  height: 10%;
+}
+.red {
+  width: 95%;
+	height: 50px; background-color: rgb(235, 212, 151);
+ margin: auto;
+	margin-bottom: 20px;
+}
+
+.back {
+ margin-left: 10px;
+  padding-top: 5px;height: 40px;
+	width: auto;
+}
+
+
+.text-image {
+ width: 95%;
+	height: 33vw;
+  margin: auto;
+	overflow: hidden; }
+
+.text {
+  width: 55%;
+ float: left; font-size: 1.5vw;  margin-left: 20px;
+}
+
+.image {
+  width: 40%;   float: left;  position: relative;
+}
+.image img {
+ width: 30vw;
+  height: 30vw;
+position: absolute;
+right: 20px;
+}
+.more { visibility: hidden;
+}
+.readmore:focus + .more { visibility: visible; }
